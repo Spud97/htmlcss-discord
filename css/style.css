@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  background-color: #3161e0;
+}
+
+#blackcontainer {
+  padding: 10px 10px 40px;
+}
+
+#newblackcontainer {
+  padding: 30px 10px 0px;
+}
+
+header .container {
+  padding: 20px 10px;
+}
+
+main .container {
+  padding: 50px 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box {       /* da togliere alla fine */
+  border: 2px dashed black;
+  padding: 10px;
+}
+
+.boxlogo {
+  padding-top: 4px;
+}
+
+.boxlink {
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.boxlilla { /* da rinominare */
+  min-width: 700px;
+  min-height: 380px;
+  margin: 0 auto;
+}
+
+.boxblue { /* da rinominare */
+  min-width: 65%;
+  min-height: 400px;
+}
+
+.boxpink { /* da rinominare */
+  min-width: 35%;
+  min-height: 400px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.boxgreen { /* da rinominare */
+  min-width: 100%;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+.boxdarkpink { /* da rinominare */
+  min-height: 500px;
+  border: 2px dashed rgb(255, 255, 255);
+  flex-grow: 2;
+}
+
+.boxbluegreen { /* da rinominare */
+  min-height: 500px;
+  border: 2px dashed rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+.boxbluegreen { /* da rinominare */
+  min-height: 70px;
+  min-width: 100%;
+  display: flex;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.boxbluegreen { /* da rinominare */
+  border: 2px dashed rgb(255, 255, 255);
+  padding: 5px;
+}
+
+.small-button {
+  padding: 5px 15px;
+  border-radius: 30px;
+  align-items: center;
+  border: none;
+}
+
+.button {
+  padding: 15px 20px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.text-white {
+  color: #feffff;
+  text-decoration: none;
+}
+
+.text-blue {
+  color: #6c81cd;
+}
+
+.bg-color-grey {
+  background-color: #f6f6f6;
+}
+
+.bg-color-black {
+  background-color: #23272a;
+}
+
+.bg-color-white {
+  background-color: #feffff;
+}
