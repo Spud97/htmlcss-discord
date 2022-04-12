@@ -13,12 +13,34 @@ header {
   background-color: #3161e0;
 }
 
+a {
+  font-size: 0.9rem;
+}
+
 h1 {
-  font-size: 3.3rem;
+  font-size: 3.1rem;
+}
+
+h2 {
+  font-size: 2.7rem;
+  margin-bottom: 25px;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+
+header .container {
+  padding: 20px 10px;
+}
+
+main .container {
+  padding: 100px 10px;
+}
+
+#first-container {
+  padding: 50px 10px;
 }
 
 #blackcontainer {
@@ -31,17 +53,9 @@ p {
   padding: 30px 10px 0px;
 }
 
-header .container {
-  padding: 20px 10px;
-}
-
-main .container {
-  padding: 50px 10px;
-}
-
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1100px;
   min-width: 300px;
   margin: 0 auto;
   display: flex;
@@ -54,6 +68,10 @@ main .container {
 
 .boxlogo {
   padding-top: 4px;
+}
+
+.logo {
+  height: 80%;
 }
 
 .boxlink {
@@ -75,24 +93,29 @@ main .container {
   min-height: 380px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 50px;
-  line-height: 30px;
+  padding-top: 30px;
 }
 
 .testo-intro {
-  padding: 40px 110px 23px;
+  padding: 40px 210px 23px;
 }
 
-.boxblue {
-  /* da rinominare */
+.immagine {
   min-width: 65%;
   min-height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.boxpink {
-  /* da rinominare */
-  min-width: 35%;
+.item {
+  height: 400px;
+}
+
+.testo {
   min-height: 400px;
+  padding: 30px 30px 0px;
+
 }
 
 .reverse {
@@ -120,23 +143,6 @@ main .container {
   flex-grow: 1;
 }
 
-.boxbluegreen {
-  /* da rinominare */
-  min-height: 70px;
-  min-width: 100%;
-  display: flex;
-  border: none;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0px;
-}
-
-.boxbluegreen {
-  /* da rinominare */
-  border: 2px dashed rgb(255, 255, 255);
-  padding: 5px;
-}
-
 .boxlightgreen {
   /* da rinominare */
   min-height: 70px;
@@ -162,15 +168,16 @@ main .container {
   border: none;
   height: 36px;
   font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .button {
-  padding: 10px 30px;
+  padding: 14px 30px;
   border-radius: 30px;
   align-items: center;
   border: none;
   height: 50px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0px 10px;
 }
 
