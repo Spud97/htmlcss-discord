@@ -13,11 +13,21 @@ header {
   background-color: #3161e0;
 }
 
+h1 {
+  font-size: 3.3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 #blackcontainer {
+  /* da rinominare */
   padding: 10px 10px 40px;
 }
 
 #newblackcontainer {
+  /* da rinominare */
   padding: 30px 10px 0px;
 }
 
@@ -37,9 +47,9 @@ main .container {
   display: flex;
 }
 
-.box {       /* da togliere alla fine */
+.box {
+  /* da togliere alla fine */
   border: 2px dashed black;
-  padding: 10px;
 }
 
 .boxlogo {
@@ -54,18 +64,33 @@ main .container {
   gap: 5%;
 }
 
-.boxlilla { /* da rinominare */
+.jumbotron {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.introduzione {
   min-width: 700px;
   min-height: 380px;
   margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 30px;
 }
 
-.boxblue { /* da rinominare */
+.testo-intro {
+  padding: 40px 110px 23px;
+}
+
+.boxblue {
+  /* da rinominare */
   min-width: 65%;
   min-height: 400px;
 }
 
-.boxpink { /* da rinominare */
+.boxpink {
+  /* da rinominare */
   min-width: 35%;
   min-height: 400px;
 }
@@ -74,25 +99,29 @@ main .container {
   flex-direction: row-reverse;
 }
 
-.boxgreen { /* da rinominare */
+.boxgreen {
+  /* da rinominare */
   min-width: 100%;
   min-height: 600px;
   margin: 0 auto;
 }
 
-.boxdarkpink { /* da rinominare */
+.boxdarkpink {
+  /* da rinominare */
   min-height: 500px;
   border: 2px dashed rgb(255, 255, 255);
   flex-grow: 2;
 }
 
-.boxbluegreen { /* da rinominare */
+.boxbluegreen {
+  /* da rinominare */
   min-height: 500px;
   border: 2px dashed rgb(255, 255, 255);
   flex-grow: 1;
 }
 
-.boxbluegreen { /* da rinominare */
+.boxbluegreen {
+  /* da rinominare */
   min-height: 70px;
   min-width: 100%;
   display: flex;
@@ -102,13 +131,32 @@ main .container {
   padding: 10px 0px;
 }
 
-.boxbluegreen { /* da rinominare */
+.boxbluegreen {
+  /* da rinominare */
   border: 2px dashed rgb(255, 255, 255);
   padding: 5px;
 }
 
+.boxlightgreen {
+  /* da rinominare */
+  min-height: 70px;
+  min-width: 100%;
+  display: flex;
+  border: 2px dashed white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.boxnewpink {
+  /* da rinominare */
+  padding: 5px;
+  border: 2px dashed white;
+  color: white;
+}
+
 .small-button {
-  padding: 5px 15px;
+  padding: 5px 13px;
   border-radius: 30px;
   align-items: center;
   border: none;
@@ -117,9 +165,13 @@ main .container {
 }
 
 .button {
-  padding: 15px 20px;
+  padding: 10px 30px;
   border-radius: 30px;
   align-items: center;
+  border: none;
+  height: 50px;
+  font-size: 1.2rem;
+  margin: 0px 10px;
 }
 
 .text-white {
