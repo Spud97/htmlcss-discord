@@ -43,6 +43,32 @@ main .container {
   padding: 50px 10px;
 }
 
+#item1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#testo1 {
+  padding: 30px 30px 0px;
+}
+
+#item2 {
+  padding: 90px 90px 0px;
+}
+
+#testo2 {
+  padding-top: 120px;
+  padding-right: 50px;
+}
+
+#item3 {
+  padding: 140px 15px 0px;
+}
+
+#testo3 {
+  padding: 160px 10px 0px 50px;
+}
+
 #blackcontainer {
   /* da rinominare */
   padding: 10px 10px 40px;
@@ -104,8 +130,6 @@ main .container {
   min-width: 65%;
   min-height: 400px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 .item {
@@ -113,9 +137,8 @@ main .container {
 }
 
 .testo {
+  min-width: 35%;
   min-height: 400px;
-  padding: 30px 30px 0px;
-
 }
 
 .reverse {
