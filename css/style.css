@@ -26,6 +26,12 @@ h2 {
   margin-bottom: 25px;
 }
 
+h3 {
+  font-size: 1.7rem;
+  margin-bottom: 35px;
+  margin-top: 36px;
+}
+
 p {
   font-size: 1.1rem;
   line-height: 30px;
@@ -69,13 +75,19 @@ main .container {
   padding: 160px 10px 0px 50px;
 }
 
+#testo4 {
+  padding: 0px 90px;
+}
+
+#vertical-container {
+  flex-direction: column;
+}
+
 #blackcontainer {
-  /* da rinominare */
   padding: 10px 10px 40px;
 }
 
 #newblackcontainer {
-  /* da rinominare */
   padding: 30px 10px 0px;
 }
 
@@ -126,7 +138,7 @@ main .container {
   padding: 40px 210px 23px;
 }
 
-.immagine {
+.boximmagine {
   min-width: 65%;
   min-height: 400px;
   display: flex;
@@ -136,7 +148,7 @@ main .container {
   height: 400px;
 }
 
-.testo {
+.boxtesto {
   min-width: 35%;
   min-height: 400px;
 }
@@ -145,11 +157,23 @@ main .container {
   flex-direction: row-reverse;
 }
 
-.boxgreen {
-  /* da rinominare */
+.bigbox {
   min-width: 100%;
   min-height: 600px;
   margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0px 0px;
+}
+
+.boxdownload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/stars.svg);
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .boxdarkpink {
@@ -223,4 +247,8 @@ main .container {
 
 .bg-color-white {
   background-color: #feffff;
+}
+
+.bg-color-blue {
+  background-color: #8ea1e1;
 }
