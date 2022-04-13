@@ -27,14 +27,27 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7rem;
-  margin-bottom: 35px;
-  margin-top: 36px;
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 0.9rem;
 }
 
 p {
   font-size: 1.1rem;
   line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+hr {
+  width: 1080px;
+  border-color: #7289da;
+  margin: 0 auto;
 }
 
 header .container {
@@ -83,12 +96,37 @@ main .container {
   flex-direction: column;
 }
 
+#titolodownload {
+  margin-bottom: 35px;
+  margin-top: 36px;
+}
+
 #blackcontainer {
-  padding: 10px 10px 40px;
+  padding: 10px 10px 0px;
+}
+
+#titoloicons {
+  padding-bottom: 24px;
+}
+
+#bandierina {
+  height: 14px;
+}
+
+#lingua {
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
+
+#icons {
+  display: flex;
+  gap: 22px;
+  font-size: 1.1rem;
 }
 
 #newblackcontainer {
-  padding: 30px 10px 0px;
+  padding-top: 10px;
+  padding-bottom: 70px;
 }
 
 .container {
@@ -99,17 +137,12 @@ main .container {
   display: flex;
 }
 
-.box {
-  /* da togliere alla fine */
-  border: 2px dashed black;
-}
-
 .boxlogo {
   padding-top: 4px;
 }
 
 .logo {
-  height: 80%;
+  height: 30px;
 }
 
 .boxlink {
@@ -174,46 +207,48 @@ main .container {
   background-image: url(../img/stars.svg);
   background-position: top;
   background-repeat: no-repeat;
+  padding-bottom: 40px;
 }
 
-.boxdarkpink {
-  /* da rinominare */
-  min-height: 500px;
-  border: 2px dashed rgb(255, 255, 255);
-  flex-grow: 2;
+.boxicons {
+  min-height: 450px;
+  width: 30%;
+  padding: 66px 90px 0px 10px;
 }
 
-.boxbluegreen {
-  /* da rinominare */
-  min-height: 500px;
-  border: 2px dashed rgb(255, 255, 255);
-  flex-grow: 1;
+.boxdownlink {
+  min-height: 450px;
+  width: 17%;
+  padding: 70px 0px 0px 20px;
 }
 
-.boxlightgreen {
-  /* da rinominare */
+.boxlanguage {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.boxfooter {
   min-height: 70px;
   min-width: 100%;
   display: flex;
-  border: 2px dashed white;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
 }
 
-.boxnewpink {
-  /* da rinominare */
+.boxend {
   padding: 5px;
-  border: 2px dashed white;
   color: white;
 }
 
 .small-button {
   padding: 5px 13px;
   border-radius: 30px;
+  display: flex;
   align-items: center;
   border: none;
-  height: 36px;
+  height: 30px;
   font-weight: bold;
   font-size: 0.8rem;
 }
@@ -234,7 +269,7 @@ main .container {
 }
 
 .text-blue {
-  color: #6c81cd;
+  color: #7289da;
 }
 
 .bg-color-grey {
