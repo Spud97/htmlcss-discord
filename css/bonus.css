@@ -1,0 +1,28 @@
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+#reverse-wave {
+    transform: rotate(180deg);
+}
+
+.white-button:hover {
+  color: #7289da;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.black-button:hover {
+  background-color: #36393f;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.blue-button:hover {
+  background-color: hsl(235, 86.1%, 71.8%);
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.waves {
+    color: #f6f6f6;
+    display: block;
+}
