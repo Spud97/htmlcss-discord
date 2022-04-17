@@ -1,3 +1,76 @@
-header {
-    background-color: #23272a;
+header a {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  font-family: "Archivo Black", sans-serif;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-family: "Archivo Black", sans-serif;
+}
+
+#introduzione {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#compatibilità {
+  font-size: 0.9rem;
+}
+
+#img-intro {
+  height: 400px;
+}
+
+#test-intro {
+  padding-bottom: 30px;
+}
+
+#blackcontainer {
+  height: 340px;
+}
+
+.main-container {
+  min-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.intro {
+  min-width: 530px;
+}
+
+.box {
+  width: 580px;
+  height: 600px;
+  padding: 56px 56px 0px 56px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-box {
+  margin-top: 70px;
+}
+
+.box-test {
+  padding: 48px 40px;
+  height: 310px;
+  width: 580px;
+}
+
+.bg-color-darkgrey {
+  background-color: #23272a;
 }

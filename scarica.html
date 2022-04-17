@@ -4,14 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bonus.css" />
     <link rel="stylesheet" href="css/scarica.css" />
     <title>Scarica</title>
   </head>
   <body>
-    <header>
-      <!-- Logo link e login -->
+    <!-- Logo link e login -->
+    <header class="bg-color-darkgrey">
       <div class="container">
         <div class="boxlogo">
           <img class="logo" src="img/logo.svg" alt="Logo" />
@@ -27,5 +37,148 @@
         <button class="bg-color-white small-button white-button">Accedi</button>
       </div>
     </header>
+    <main>
+      <!-- Prima Sezione -->
+      <section class="bg-color-darkgrey">
+        <div class="container">
+          <div class="intro">
+            <h1 class="text-white">
+              OTTIENI DISCORD PER QUALSIASI DISPOSITIVO
+            </h1>
+            <p id="introduzione" class="text-white">
+              Un'avventura ti aspetta. Passa il tempo con i tuoi amici sulla
+              nostra applicazione per desktop e tieni viva la conversazione su
+              mobile.
+            </p>
+            <button class="button text-white bg-color-blue blue-button">
+              <i class="fa-solid fa-arrow-down-long"></i> Scarica per Windows
+            </button>
+            <span id="compatibilità" class="text-white"
+              >Windows 7 o superiore</span
+            >
+          </div>
+          <div>
+            <img id="img-intro" src="img/scarica-item1.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Seconda Sezione -->
+      <section>
+        <div class="container main-container">
+          <div class="box bg-color-grey">
+            <h2>iOS</h2>
+            <button class="button text-white bg-color-black black-button">
+              Scarica
+            </button>
+            <img class="img-box" src="img/scarica-item2.svg" alt="" />
+          </div>
+          <div class="box bg-color-grey">
+            <h2>Android</h2>
+            <button class="button text-white bg-color-black black-button">
+              Scarica
+            </button>
+            <img class="img-box" src="img/scarica-item3.svg" alt="" />
+          </div>
+          <div class="box bg-color-grey">
+            <h2>Linux</h2>
+            <button class="button text-white bg-color-black black-button">
+              Scarica
+            </button>
+            <img class="img-box" src="img/scarica-item4.svg" alt="" />
+          </div>
+          <div class="box bg-color-grey">
+            <h2>Mac</h2>
+            <button class="button text-white bg-color-black black-button">
+              Scarica
+            </button>
+            <img class="img-box" src="img/scarica-item5.svg" alt="" />
+          </div>
+          <div class="box-test bg-color-grey">
+            <h2>Ti senti in vena di sperimentare?</h2>
+            <p id="test-intro">
+              Prova il nostro test build pubblico e testa le nuove funzionalità
+              prima che vengano pubblicate.
+            </p>
+            <button class="button text-white bg-color-black black-button">
+              Ottieni la build pubblica di prova
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Terza Sezione -->
+      <section class="bg-color-black">
+        <div id="blackcontainer" class="container">
+          <div class="boxicons">
+            <h3 id="titoloicons" class="text-blue">IMMAGINA UNO SPAZIO</h3>
+            <div class="boxlanguage">
+              <img id="bandierina" src="img/ita.png" alt="bandierina" />
+              <span id="lingua" class="text-white"
+                >Italiano
+                <i style="font-size: 8px" class="fa-solid fa-angle-down"></i
+              ></span>
+            </div>
+            <div id="icons" class="text-white">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="boxdownlink">
+            <h5 class="text-blue">Prodotto</h5>
+            <ul>
+              <li><a class="text-white" href="scarica.html">Scarica</a></li>
+              <li><a class="text-white" href="">Nitro</a></li>
+              <li><a class="text-white" href="">Stato</a></li>
+            </ul>
+          </div>
+          <div class="boxdownlink">
+            <h5 class="text-blue">Compagnia</h5>
+            <ul>
+              <li><a class="text-white" href="">Chi siamo</a></li>
+              <li><a class="text-white" href="">Lavora con noi</a></li>
+              <li><a class="text-white" href="">Marchio</a></li>
+              <li><a class="text-white" href="">Redazione</a></li>
+            </ul>
+          </div>
+          <div class="boxdownlink">
+            <h5 class="text-blue">Risorse</h5>
+            <ul>
+              <li><a class="text-white" href="">Università</a></li>
+              <li><a class="text-white" href="">Assistenza</a></li>
+              <li><a class="text-white" href="">Sicurezza</a></li>
+              <li><a class="text-white" href="">Blog</a></li>
+              <li><a class="text-white" href="">Suggerimenti</a></li>
+              <li><a class="text-white" href="">Sviluppatori</a></li>
+              <li><a class="text-white" href="">Stream Kit</a></li>
+            </ul>
+          </div>
+          <div class="boxdownlink">
+            <h5 class="text-blue">Norme</h5>
+            <ul>
+              <li><a class="text-white" href="">Termini</a></li>
+              <li><a class="text-white" href="">Privacy</a></li>
+              <li><a class="text-white" href="">Impostazioni cookie</a></li>
+              <li><a class="text-white" href="">Linee Guida</a></li>
+              <li><a class="text-white" href="">Riconoscimenti</a></li>
+              <li><a class="text-white" href="">Licenze</a></li>
+              <li><a class="text-white" href="">Moderazione</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div id="newblackcontainer" class="container">
+          <div class="boxfooter">
+            <div class="boxend">
+              <img class="logo" src="img/logo.svg" alt="Logo" />
+            </div>
+            <button class="boxend small-button text-white bg-color-blue blue-button ">
+              Registrati
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
